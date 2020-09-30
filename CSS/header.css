@@ -106,7 +106,8 @@ border-radius: 5px;
 .nav-toggle-label span::before{
     top: 8px;
 }
-/************* mobile***************/
+/***********************************/
+/*********Affichage MOBILE**********/
 /***********************************/
 @media screen and (min-width:835px) {
     .container{
@@ -116,7 +117,6 @@ border-radius: 5px;
       display: none;  
     }
     header{
-        
         width: 100%;
     }
     nav{        
