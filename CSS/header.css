@@ -3,6 +3,7 @@
 /*****************************************************
  *          ici le style specifique au HEADER        *
  *****************************************************/
+ 
  header{
     background-color: var(--fond-marron50);
  }
@@ -43,7 +44,7 @@ nav ul{
 }
 nav li{
     line-height: 50px;
-   
+    border: solid 1px;
     
 }
 nav a {   
@@ -145,6 +146,7 @@ border-radius: 5px;
         display: flex;
       }
     nav li{
+        border: solid 1px var(--fond-marron50);
         vertical-align: middle;
       padding: 0;
        margin: 0;
