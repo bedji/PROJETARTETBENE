@@ -1,0 +1,22 @@
+/*****************************************************
+ *          ici les variables GLOBALES               *
+ *****************************************************/
+ @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+ :root{
+     --taille-mobile:360px;
+     --taille-pc:1080px;
+     --couleur-fond :#785990;
+     --fond-blanc:#fff;
+     --fond-marron:#716558;
+     --fond-marron50: /*#7165581a;*/#cec9c5;
+ }
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    font-family: 'Didact Gothic', sans-serif;
+     /* font-family:  'Arial Narrow', Arial, sans-serif; */
+     background-color:var(--fond-blanc );
+ }

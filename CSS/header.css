@@ -1,0 +1,191 @@
+
+@import 'style.css';
+/*****************************************************
+ *          ici le style specifique au HEADER        *
+ *****************************************************/
+ header{
+    background-color: var(--fond-marron50);
+ }
+ .container{
+    
+    margin: 0 auto; 
+    border:solid black 1px ;/*  a enlever aprés  */
+    background-color: var(--fond-marron50);
+ }
+ 
+header{
+    background-color: ver(--fond-marron50);
+    text-align: left;
+    position: fixed;
+   width:100% ;
+    z-index: 9;
+}
+.logo img{
+   height: 35px;
+    width: 131px;
+}
+nav{
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    background-color: var(--fond-marron50);
+    width: 100%;
+    transform: scaleY(0);
+    transition: transform 400ms ease-in-out;
+    transform-origin: top;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    line-height: 50px;
+    border: solid 1px;
+    
+}
+nav a {   
+    /*display: block*/
+    margin-bottom: 1em;
+    margin-left: 1em;
+    opacity: 0;
+    color: var(--fond-marron);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 150ms ease-in-out ;
+}
+nav a:hover{
+    color : white;
+}
+.video{
+    display: none;
+}
+.nav-toggle {
+    display: none;
+}
+.nav-toggle:checked ~ nav{
+    display: block;
+    transform: scaleY(1);
+    
+}
+.nav-toggle:checked ~nav a{
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 350ms;
+}
+.nav-toggle-label{
+    position: absolute;
+top: 0px;
+right:  1em;
+height: 100%;
+display: flex;
+align-items: center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+height: 5px;
+width: 2em;
+position: relative;
+display: block;
+background:var(--fond-marron);
+border-radius: 5px;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+    position: absolute;
+    content: '';
+}
+.nav-toggle-label span::after{
+    bottom: 8px;
+}
+.nav-toggle-label span::before{
+    top: 8px;
+}
+/************* mobile***************/
+/***********************************/
+@media screen and (min-width:760px) {
+    .container{
+        max-width: var(--taille-pc);
+    }
+    .nav-toggle-label{
+      display: none;  
+    }
+    header{
+        
+        width: 100%;
+    }
+    nav{        
+        all: unset;
+        display: flex;
+        align-self: flex-end;
+        
+     }
+    
+    nav a{
+        position: relative;
+        padding:10px 10px; 
+        margin: 0;
+        text-align: center;
+        font-weight: normal;
+        text-transform: none;
+        font-size: 16px;
+       opacity: 1;
+    }
+    .navbar{
+        max-width: 1080px;
+        display: flex;
+       
+       
+    }
+    ul{
+        display: flex;
+      }
+    nav li{
+        vertical-align: middle;
+      padding: 0;
+       margin: 0;
+       text-align: center;
+    }
+    .logo{    
+        margin-right: auto;
+    }
+.logo img{
+   
+    height: 48px;
+width: auto;
+}
+nav img{
+    height: 20px;
+    width: 30px;
+    
+    text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+ .video{
+        display: none;
+    }
+    li a::after{
+        position: absolute;
+            content: '';
+            display: block;
+        height: 5px;
+        left: 0px;
+        right: 0;
+        bottom: 5px;
+        background-color: var(--fond-marron);
+        opacity: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition:transform ease-in-out 200ms  ;
+        }
+        li a:hover::after{
+            opacity: 1;
+            background-color:var(--fond-marron);
+            transform: scaleX(1);
+            }
+}

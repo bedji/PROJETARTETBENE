@@ -1,0 +1,27 @@
+/*****************************************************
+ *          ici le style du  FOOTER                  *
+ *****************************************************/
+ footer{
+     position: relative;
+     top: 100px;
+     height: 200px;
+     border: solid 1px black;
+ }
+ /* span{
+     position: absolute;
+ }
+ div{
+     
+     width: 200px;
+     text-align: center;
+ }
+ p{
+     
+     text-align: center;
+     position: relative;
+     display: inline;
+     left: 40px;
+ }
+ span ~ p{
+     
+ } */
