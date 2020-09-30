@@ -10,7 +10,7 @@
  .container{
     
     margin: 0 auto; 
-    border:solid black 1px ;/*  a enlever aprés  */
+    /*border:solid black 1px ;/*  a enlever aprés  */
     background-color: var(--fond-marron50);
  }
  
@@ -29,7 +29,7 @@ nav{
     z-index: 10;
     position: absolute;
     text-align: center;
-    top: 41px;
+    top: 39px;
     left: 0;
     background-color: var(--fond-marron50);
     width: 100%;
@@ -86,7 +86,7 @@ video{
 position: absolute;
 top: 0px;
 right:  1em;
-height: 41px;
+height: 40px;
 display: flex;
 align-items: center;
 }
