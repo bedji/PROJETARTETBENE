@@ -59,7 +59,7 @@ nav a {
     text-transform: uppercase;
     transition: opacity 150ms ease-in-out ;
 }
-nav a .active{
+nav a.active{
     color : white; 
 }
 nav a:hover{
