@@ -1,7 +1,8 @@
 /*****************************************************
  *          ici le stile du  MAIN                    *
  *****************************************************/
- .content{
+ @import 'style.css';
+ .main_content{
    
 background-color: var(--fond-marron50);
 

@@ -11,13 +11,14 @@
     
     margin: 0 auto; 
     /*border:solid black 1px ;/*  a enlever aprés  */
-    background-color: var(--fond-marron50);
+   
  }
  
 header{
+    position: fixed;
     background-color: ver(--fond-marron50);
     text-align: left;
-    position: fixed;
+   
    width:100% ;
     z-index: 9;
 }
@@ -26,6 +27,7 @@ header{
     width: 131px;
 }
 nav{
+    position: sticky;
     z-index: 10;
     position: absolute;
     text-align: center;
@@ -68,7 +70,7 @@ nav a:hover{
 video{
     z-index: 1;
     position: relative;
-    bottom: 0;
+    
     height: auto;
     width:100%;
    display: block; 
@@ -150,7 +152,7 @@ border-radius: 5px;
        
        
     }
-    ul{
+    nav ul{
         display: flex;
       }
     nav li{
@@ -173,13 +175,16 @@ nav img{
     width: 30px;
     
     text-align: center;
-  display: table-cell;
+  
   vertical-align: middle;
 }
- .video{
-        display: none;
+ video{
+     z-index: 1;  
+     width: 100%;
+    
+    
     }
-    li a::after{
+    nav li a::after{
         position: absolute;
             content: '';
             display: block;
@@ -193,7 +198,7 @@ nav img{
         transform-origin: left;
         transition:transform ease-in-out 200ms  ;
         }
-        li a:hover::after{
+       nav li a:hover::after{
             opacity: 1;
             background-color:var(--fond-marron);
             transform: scaleX(1);
