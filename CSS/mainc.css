@@ -50,7 +50,7 @@
     padding-right: 30px;
 }
 .main-carte-contact { 
-    
+  padding: 10px;  
 display: flex;
 justify-content: space-evenly;
 flex-direction: column;
