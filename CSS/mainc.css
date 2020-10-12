@@ -8,10 +8,11 @@
 }   
  .main_content{
      padding: 37px;
-            background-color: var(--fond-marron50);
+            background-color: var(--fond-marron);
     
      }
      .main_carte{
+         /*   box-shadow: 1px 6px 15px 1px rgba(0,0,0,0.39) inset;*/
          box-shadow:0px 0px 20px 5px rgba(0, 0, 0, 0.50);
          border: var(--fond-marron) 1px solid ;
          background-color: #fff;

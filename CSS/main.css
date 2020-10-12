@@ -1,9 +1,204 @@
+
 /*****************************************************
  *          ici le stile du  MAIN                    *
  *****************************************************/
- @import 'style.css';
- .main_content{
-   
-background-color: var(--fond-marron50);
-
+ @media screen and (min-width: 835px)
+ {
+ .main_fondprincipal 
+ {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    margin : 0 auto;
+    width: var(--taille-pc);
+     background-color: #716558;
+    justify-content: space-evenly;
+    padding-top: 52px;
  }
+ .main_content
+ {
+     display : flex; 
+     justify-content: space-between;
+     flex-direction: column;
+     margin-top: 52px;
+     box-shadow: -1px 7px 26px 3px rgba(0,0,0,0.79);
+    
+ } 
+
+ .main_titre
+ {
+     background-color: #FFFFFF;
+     width: 400px; 
+     align-items: center;
+     border: solid 1px #716558; 
+     transition: background 0.5s;
+ }
+ .main_titre a 
+ {
+     text-decoration:none ;
+ }
+ .main_titre:hover
+ {
+     background: #cec9c5;
+ }
+ .main_texte
+ {
+     background-color: #FFFFFF;
+     width: 400px; 
+     align-items: center;
+     border: solid 1px black;
+     box-shadow: 1px 6px 15px 1px rgba(0,0,0,0.39) inset;    
+ }
+ .main_h1
+ {
+    text-align: center;
+    color: #716558;
+    padding-bottom: 5px;
+ }
+.main_p
+{
+    text-align: justify;
+    padding: 30px;
+    font-style: italic;
+}
+.main_img
+{
+    height: 200px;
+    width: 400px;
+    background: url(../IMG/etagere01.jpg);
+    background-size: 100%;
+    background-position: center center;
+    border: solid 1px #716558;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    position: relative;
+    max-width: 100%;
+}
+.main_img:hover
+{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+.main_voirplus
+{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    padding: 2px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    box-shadow: 0 0 1em black;
+    transition: background 0.5s;
+}
+.main_voirplus:hover
+{
+    background: #cec9c5;
+    transform: rotate(2deg);
+    color: black; 
+}
+}
+
+
+
+@media screen and (max-width: 834px)
+ {
+ .main_content
+ {
+     display : flex; 
+     justify-content: space-between;
+     flex-direction: column;
+     margin-top: 52px;
+     box-shadow: -1px 7px 26px 3px rgba(0,0,0,0.79);
+ } 
+ .main_fondprincipal 
+ {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    margin : 0 auto;
+    background-color: #716558;
+    justify-content: space-evenly;
+    padding: 52px;
+ }
+ .main_titre
+ {
+     background-color: #FFFFFF;
+     width: 100%; 
+     align-items: center;
+     border: solid 1px #716558; 
+     transition: background 0.5s;
+ }
+ .main_titre a 
+ {
+     text-decoration:none ;
+ }
+ .main_titre:hover
+ {
+     background: #cec9c5;
+ }
+ .main_texte
+ {
+     background-color: #FFFFFF;
+     width: 100%; 
+     align-items: center;
+     border: solid 1px black;
+     box-shadow: 1px 6px 15px 1px rgba(0,0,0,0.39) inset;   
+ }
+ .main_h1
+ {
+    text-align: center;
+    color: #716558;
+    padding-bottom: 5px;
+ }
+.main_p
+{
+    text-align: justify;
+    padding: 30px;
+    font-style: italic;
+}
+.main_img
+{
+    height: 200px;
+    width: 100%;
+    background: url(../IMG/etagere01.jpg);
+    background-size: 100%;
+    background-position: center center;
+    border: solid 1px #716558;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    position: relative;
+    max-width: 100%;
+}
+.main_img:hover
+{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+.main_voirplus
+{
+    color: #FFFFFF;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 2px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0 0 1em black;
+    transition: background 0.5s;
+}
+.main_voirplus:hover
+{
+    background: #cec9c5;
+    transform: rotate(2deg);
+    color: black; 
+}
+}
