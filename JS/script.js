@@ -33,4 +33,6 @@ form.addEventListener('submit', (e) => {
 
 
 })
-
+// function RedirectionJavascript() {
+//     document.location.href = "index.html";
+// }
