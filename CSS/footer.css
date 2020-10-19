@@ -1,4 +1,210 @@
-/*****************************************************
- *          ici le style du  FOOTER                  *
- *****************************************************/
- 
+*{
+    margin:0;padding:0
+}
+
+@media screen and (min-width:1200px){
+    
+  
+
+    .b{
+
+        border:solid 1px black;
+        display:flex;
+        justify-content: space-around;
+        font-size:large;
+        padding: 30px;
+        
+        }
+    #contenu{
+
+        list-style: none;
+    }
+
+
+    .texte{
+        
+        position: relative;
+        left: 50px;
+    }
+    .texte1{
+
+        display:inline;
+        position:relative;
+        left:30px;
+    }
+    
+    .reseaux{
+        display: flex;
+        text-align: center; 
+        padding-top: 5px; 
+        justify-content: space-evenly;
+    }
+        
+    
+    .icone{
+       font-size: 25px;
+       
+    }
+    .texte2{
+
+        position:relative;
+        margin-bottom: 30px;
+
+    }
+    .engflag img{
+
+        margin:20px;
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+    
+    }
+    .legislation{
+    
+        height:50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: medium;
+    }
+    .legislation a{
+    
+        text-decoration:none;
+    }
+}
+
+@media screen and ( min-width:441px) and (max-width:1199px){
+
+
+  
+    .b{
+
+        border:solid 1px black;
+        display:flex;
+        justify-content: space-around;
+        font-size:large;
+        padding: 30px;
+        
+        }
+    #contenu{
+
+        list-style: none;
+    }
+
+
+    .texte{
+        
+        position: relative;
+        left: 50px;
+    }
+    .texte1{
+
+        display:inline;
+        position:relative;
+        left:30px;
+    }
+
+    .reseaux{
+        display: flex;
+        text-align: center; 
+        padding-top: 5px; 
+        justify-content: space-evenly;
+    }
+
+    .texte2{
+
+        position:relative;
+        margin-bottom: 30px;
+
+    }
+    .icone{
+        font-size: 25px;
+        
+     }
+    .engflag img{
+
+        margin:20px;
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+    }
+    .legislation{
+    
+        height:50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: medium;
+    }
+    .legislation a{
+    
+        text-decoration:none;
+    }
+
+}
+
+@media screen and ( max-width:440px ){
+
+    
+    
+
+    .b{
+
+        border: solid 1px black;
+      
+    }
+
+    #contenu{
+
+        list-style: none;
+        
+    }
+    
+
+    .texte{
+
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .mere{ 
+
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .texte2{
+        text-align: center;
+    }
+    
+    .reseaux{
+        display: flex;
+        text-align: center; 
+        padding-top: 5px; 
+        justify-content: center;
+    }
+.icone{
+    padding:0 5px;
+    padding-bottom: 15px;
+   
+}
+
+    .engflag img{
+
+        width:30px;
+        height: 30px;
+        padding-top: 15px;
+    }
+
+    .legislation{
+        
+        padding-top: 15px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .legislation a{
+
+        text-decoration:none;
+    }
+
+}
+
