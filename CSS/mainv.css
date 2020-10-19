@@ -1,7 +1,7 @@
 
 body {
 
-    background-color:#cec9c5;
+    background-color:var(--fond-marron);
     
 }
 
@@ -13,12 +13,14 @@ body {
 
 body {
 
-    width: 1200px;
-    margin:0 auto;
-    padding:10px;
+    /* width: 1200px; */
+    /* margin:0 auto;
+    padding:10px; */
 }
 .mainv-mere{
-
+    padding-top: 52px;
+    width: 1200px;
+    margin: 0 auto;
     box-sizing:border-box;
 }
 
@@ -103,11 +105,11 @@ body {
 
 body{
 
-    margin: 0px 10px;
-    padding: 10px;
+    /* margin: 0px 10px;
+    padding: 10px; */
 }
 .mainv-mere{
-
+    padding-top: 52px;
     box-sizing:border-box;
 }
 .mainv-titre h2 {
