@@ -6,10 +6,12 @@
  {  
  .main_fondprincipal 
  {
+    scroll-behavior: smooth;
     background-color: #716558; 
  }
  .main_cadre 
  {
+    scroll-behavior: smooth;
     max-width: var(--taille-pc);
     display: flex;
     flex-flow: wrap;
