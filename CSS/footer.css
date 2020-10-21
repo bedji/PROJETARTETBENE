@@ -173,7 +173,9 @@
     .texte2{
         text-align: center;
     }
-    
+    .reseaux a{
+        font-size:25px ;
+    }
     .reseaux{
         display: flex;
         text-align: center; 
