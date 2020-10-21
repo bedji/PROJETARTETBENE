@@ -1,0 +1,11 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 30px;
+}
+main img{
+    padding: 30px;
+   max-width: 300px;
+}
