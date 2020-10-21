@@ -62,6 +62,14 @@
     color: inherit;
     display:block;
 }
+.main-adresse a[href^="tel"]:hover{
+    color :red;
+cursor: url("/IMG/telephone-receiver_1f4de.png"),auto;
+}
+.main-adresse a[href^="mail"]:hover{
+    color :red;
+
+}
 .main-adresse span{
     padding-right: 30px;
 }
