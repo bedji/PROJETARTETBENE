@@ -174,7 +174,8 @@
         text-align: center;
     }
     .reseaux a{
-        font-size:25px ;
+        text-decoration: none;
+        font-size:40px ;
     }
     .reseaux{
         display: flex;
@@ -183,7 +184,7 @@
         justify-content: center;
     }
 .icone{
-    padding:0 5px;
+    padding:0 25px;
     padding-bottom: 15px;
    
 }
