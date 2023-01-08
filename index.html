@@ -7,12 +7,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ART&BENE</title>
+    <title>Paradise PIZZA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href=".\CSS\style.css">
     <link rel="stylesheet" href=".\CSS\header.css">
     <link rel="stylesheet" href=".\CSS\footer.css">
     <link rel="stylesheet" href=".\CSS\mainPA.css">
+     <link rel="stylesheet" href=".\CSS\mainc.css">
     <script defer src=".\JS\script.js"></script>
 
 </head>
@@ -25,26 +26,24 @@
     -la bare de navigation 
     -le boutton de la langue
     -la video  
-    ------------------------------------------------------------------------------------------->
+    -------------------------------------------------------------------------------------->
     <header>
         <div class="container">
             
             
     <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src=".\IMG\DESCOM_LOGO_COLOR_RVB_ART&BENE_PNG.png" alt="" ></a>
-            </div>
+          
             <input type="checkbox" name="toggle" id="toggle" class="nav-toggle">
 <nav>
     <ul>
-        <li><a class="active" href="index.html">Accueil</a></li>
-        <li><a href="nous.html">Qui sommes nous</a></li>
-        <li><a href="realisations.html">Nos réalisations</a></li>
-        <li><a href="valeurs.html">Nos Valeurs</a></li>
-        <li><a href="contact.html">Nous Contacter</a></li>
-        <li><a href="index.html"><img src=".\IMG\langue.png" alt=""></a></li>
+        <li><a class="active" href="#main">La carte</a></li>
+       
+       
+        <li><a href="#contact">Nous Contacter</a></li>
+         <li><a href="nous.html">Nous trouver </a></li>
+       
         <li class="resaux" ><a  href="https://www.facebook.com/eric.dubois.315080"><i class="fab fa-facebook-square"></i></a>
-            <a  href="https://www.pinterest.fr/artbene51/"><i class="fab fa-pinterest-square"></i></a>
+            
             <a  href="https://www.instagram.com/art.bene.51/?hl=fr"><i class="fab fa-instagram-square"></i></a></li>
     </ul>   
 </nav>
@@ -64,168 +63,89 @@
             <a href="#main"><span></span></a>
           </section>
         <video   autoplay muted loop>
-            <source src=".\IMG\Atellier.webm" type="video/webm">
-            <source src=".\IMG\Atellier.mp4" type="video/mp4">
+            
+            <source src=".\IMG\Pizzaiolo.mp4" type="video/mp4">
                     
         </video>
-        <div class="capsule">
-            <h1>ART&BENE</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam et ducimus repellat ipsa aliquid quis a nihil in minima culpa quasi odio cumque sequi distinctio, atque maiores reprehenderit sint? Eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos debitis laudantium, ratione qui iusto laborum? Debitis atque voluptatem necessitatibus cupiditate maxime ut voluptas perspiciatis eos dolorem mollitia ea, distinctio eligendi doloremque expedita laboriosam omnis tempora reprehenderit.  </p>
-            <!-- Use a button to pause/play the video with JavaScript -->
-            <button id="myBtn" >En savoir plus</button>
-          </div>
+       
     </div>
     <!-- fin du header --->
 
-     <!------------------------------------MAIN------------------------------------------------
+     <!------------------------------------MAIN----------------------------------------
      ici la partie MAIN
     qui contien:
     les sectios qui sommes nous ect ...
-    ------------------------------------------------------------------------------------------->
+    -------------------------------------------------------------------------------------->
     <main class="main_fondprincipal">
         <div id="main" class="main_cadre">
             <div class="main_content">
                 <div  class="main_titre">
-                    <a href="nous.html">
-                        <h1 class="main_h1">Qui sommes nous ? </h1>
+                    <a href="#main">
+                        <h1 id="carte" class="main_h1">La Carte  </h1>
                     </a>
                 </div>
                 <div class="main_texte">
-                    <p class="main_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit minima
-                        numquam nostrum commodi repellat iure rem fugiat eum, quisquam sit eos voluptates impedit beatae eligendi quidem
-                        laudantium,
-                    </p>
+                   
                 </div>
                 <div class="main_img">
-                    <img class="main_img" src="IMG/IMG_retoucher/IMG_8412.jpg">
-                    <a href="nous.html">
-                        <div class="main_voirplus"> Voir plus</div>
-                    </a>
+                    <img class="main_img" src="IMG/PARADISE EXTERIEUR 29X40.jpg">
+                    
                 </div>
 
             </div>
-            <div class="main_content">
-                <a href="realisations.html">
-                    <div class="main_titre">
-                        <h1 class="main_h1">Nos réalisations</h1>
-                </a>
+             <div class="main_content">
+                
+                
+                <div class="main_img">
+                    <img class="main_img" src="IMG/PARADISE INTERIEUR 29X40.jpg">
+                    
+                </div>
+
             </div>
-            <div class="main_texte">
-                <p class="main_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit minima
-                    numquam nostrum commodi repellat iure rem fugiat eum, quisquam sit eos voluptates impedit beatae eligendi quidem
-                    laudantium,</p>
-            </div>
-            <div class="main_img">
-                <img class="main_img" src="IMG/IMG_retoucher/atelier_ebeniste.jpg">
-                <a href="realisations.html">
-                    <div class="main_voirplus"> Voir plus</div>
-                </a>
-            </div>
+            
         </div>
 
-        <div class="main_content">
-            <a href="valeurs.html">
-                <div class="main_titre">
-                    <h1 class="main_h1">Nos valeurs</h1>
-            </a>
-        </div>
-        <div class="main_texte">
-            <p class="main_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit minima
-                numquam nostrum commodi repellat iure rem fugiat eum, quisquam sit eos voluptates impedit beatae eligendi quidem
-                laudantium,</p>
-        </div>
-        <div class="main_img">
-            <img class="main_img"
-                src="IMG/IMG_retoucher/2121772-la-foret-un-placement-securisant-dans-le-temps-web-tete-030682267356.jpg">
-            <a href="valeurs.html">
-                <div class="main_voirplus"> Voir plus</div>
-            </a>
-        </div>
-        </div>
+        
 
-        <div class="main_content">
-            <a href="contact.html">
-                <div class="main_titre">
-                    <h1 class="main_h1">Nous contacter</h1>
-            </a>
+       
+    </div>
+    <!---- contact
+    <div class="main_content"> ----> 
+            
+             <div class="main_carte">
+                <div  id= "contact" class="main-carte-titel">
+                    <h2>Nous contacter</h2>
+                   
+                </div>
+                <div class="main-horaires">
+                <h3>Nous rendre visite</h3>
+            <h4>Horaires d'ouverture</h4>
+            <p>Du lundi au vendredi :  17h - 22h30</p>
+            <p>Le week-end : 23H</p>
         </div>
-        <div class="main_texte">
-            <p class="main_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit minima
-                numquam nostrum commodi repellat iure rem fugiat eum, quisquam sit eos voluptates impedit beatae eligendi quidem
-                laudantium,</p>
-        </div>
-        <div class="main_img">
-            <img class="main_img" src="IMG/IMG_retoucher/unnamed (1).jpg">
-            <a href="contact.html">
-                <div class="main_voirplus"> Voir plus</div>
-            </a>
-        </div>
-        </div>
-        </div>
+            <div class="main-adresse">
+                <p>Paradise PIZZA</p>
+                <p><span><i class="fas fa-home"></i></span>10 rue docteur Genillon</p>
+                <p>51170 Fismes</p>
+                <a href="tel:+33326033183"><span><i class="fas fa-phone-alt"></i></span>03 26 03 31 83</a>
+                
+            </div>
+            
+           
+            <div class="plan">
+<h3>Nous localiser</h3>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2601.235755786347!2d3.6824128!3d49.309818799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e9aa0bae4c9fd9%3A0x7ad6a10eb73057e6!2s10%20Rue%20Dr%20Genillon%2C%2051170%20Fismes!5e0!3m2!1sfr!2sfr!4v1673193343509!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            </div>  
+            </div>
 
 
     </main><!-- fin du MAIN-->
 
 
-     <!------------------------------------FOOTER----------------------------------------------
-     ici la partie FOOTER
-    qui contien:
-    -les coordonnées  
-    ------------------------------------------------------------------------------------------->
-    <footer>
-        <div class="b">
-            <div class="mere Coordonnées">
-                <ul id="contenu">
-
-                    <li>
-                        <div class="Coordonnees">Coordonnées</div>
-                    </li>
-
-
-                    <li>
-                        <div class="texte">Eric DUBOIS</div>
-                    </li>
-
-                    <li>
-                        <i class="fas fa-home icones"></i>
-                        <div class="texte1"> 7 bis rue Robert Schuman</div>
-                    </li>
-
-                    <li>
-                        <div class="texte">51100 Villers-Allerand</div>
-                    </li>
-
-                    <li>
-                        <i class="fas fa-phone-square-alt icones"></i>
-                        <div class="texte1"> 06 16 97 58 48</div>
-                    </li>
-                    <li>
-                        <i class="fas fa-envelope icones"></i>
-                        <div class="texte1"> artbene@hotmail.fr</div>
-                    </li>
-                </ul>
-            </div>
-            <div class="mere-reseaux">
-                <div class="texte2">Réseaux sociaux</div>
-
-                <div class="reseaux">
-                    <a  href="https://www.facebook.com/eric.dubois.315080"><i class="fab fa-facebook-square icone"></i></a>
-                    <a  href="https://www.pinterest.fr/artbene51/"><i class="fab fa-pinterest-square icone"></i></a> 
-                    <a  href="https://www.instagram.com/art.bene.51/?hl=fr"><i class="fab fa-instagram-square icone"></i></a>
-                </div>
-            </div>
-            <div class="mere langues">
-                <div class="texte3">Langues</div>
-                <div class="engflag">
-                    <img src="IMG/engflag.jpg" alt="langue anglaise">
-                </div>
-            </div>
-
-        </div>
-        <div class="legislation">
-            Tous droits réservés Art&Bene - <a href="Mentions légales">Mentions légales - </a><a href="Plan du site">
-                Plan du site </a><a href=" Politique de confidentialité">- Politique de confidentialité</a>
-        </div>
-    </footer><!--fin du FOOTER-->
+     
 </body>
 </html>
